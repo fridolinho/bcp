@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("path-to-fonts/poppins-regular.woff2") format("woff2"), url("path-to-fonts/poppins-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.top-nav-link {
+  font-size: 14px;
+}
+
+.bg-primary-custom {
+  background: #1e2937;
+}
+
+.navbar .navbar-brand {
+  color: #1e2937;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 24px;
+}
+.navbar .text-primary-custom {
+  color: #1e73be;
+}
+
+.nav-link {
+  color: #1e2937;
+}
+
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.jumbo-head {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.first-section {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.first-section .head-left-primary {
+  color: #1e2937;
+  font-weight: bold;
+}
+.first-section .icon-features {
+  padding: 10px;
+  text-align: left;
+  font-size: 50px;
+}
+.first-section .card-text {
+  padding: 10px;
+}
+
+.second-section {
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.second-section .head-left-primary {
+  color: #1e2937;
+  font-weight: bold;
+}/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sequoia | Coming Soon</title>
+    <link rel="shortcut icon" href="images/sequoia.png" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #001F3D;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+
+        /* Mobile background */
+        @media (max-width: 768px) {
+            .container {
+			background-image: url('images/sequoia-bg-mob.png');
+            }
+        }
+
+        /* Desktop background */
+        @media (min-width: 769px) {
+            .container {
+			background-image: url('images/sequoia-bg.png');
+            }
+        }
+
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			text-align: center;
+			background-color: rgba(0, 0, 0, 0.5);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+
+		h1 {
+			font-size: 3rem;
+			margin: 0 0 1rem;
+			text-shadow: 2px 2px #6E3419;
+		}
+
+		p {
+			font-size: 1.5rem;
+			margin: 0 0 2rem;
+			text-shadow: 2px 2px #6E3419;
+		}
+
+		.btn {
+			display: inline-block;
+			background-color: #6E3419;
+			color: white;
+            margin-top: 250px;
+			padding: 1rem 2rem;
+			border-radius: 0.5rem;
+			text-decoration: none;
+			box-shadow: 2px 2px #001F3D;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.btn:hover {
+			transform: translateY(-5px);
+			box-shadow: 3px 3px #001F3D;
+		}
+
+		.video-bg {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			z-index: -1;
+		}
+
+		.video-bg video {
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+
+		.logo {
+			position: absolute;
+			top: 2rem;
+			left: 2rem;
+			height: 10rem;
+		}
+
+		@media (max-width: 768px) {
+			h1 {
+				font-size: 2.5rem;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+
+			.btn {
+				padding: 0.5rem 1rem;
+			}
+
+			.logo {
+				top: 1rem;
+				left: 1rem;
+				height: 3rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="images/sequoia.png" alt="Sequoia Logo" class="logo">
+		<a href="mailto:info@sequoia.com" class="btn">Email Enquiry</a>
+	</div>
+</body>
+</html>
